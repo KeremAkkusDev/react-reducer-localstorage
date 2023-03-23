@@ -1,11 +1,10 @@
-import NoteList from "./components/NoteList";
-import './App.css';
+import NoteApp from "./NoteAppcomponents/NoteApp";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <NoteApp/>
+    </>
   );
 }
 
